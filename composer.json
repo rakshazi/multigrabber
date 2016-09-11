@@ -1,0 +1,16 @@
+{
+    "name": "rakshazi/multigrabber",
+    "description": "Download and parse HTML with multiple parallel requests and PicoFeed grabber",
+    "homepage": "https://github.com/rakshazi/multigrabber",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "curl","multi", "client", "http", "async", "parallel", "requests", "spider", "parser", "grabber", "xpath", "dom"],
+    "authors": [{"name": "Nikita Chernyi", "homepage": "http://rakshazi.cf"}],
+    "require": {
+        "fguillot/picoFeed": "^0.1.25",
+        "khr/php-mcurl-client": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {"Rakshazi\\": "src"}
+    }
+}
